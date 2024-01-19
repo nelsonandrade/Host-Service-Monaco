@@ -178,6 +178,7 @@ body{
     }
     .mobile-menu {
       display: block;
+      z-index: 1000;
       
     }
     .logo{
