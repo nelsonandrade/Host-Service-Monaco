@@ -29,15 +29,9 @@ nav {
     justify-content: space-around;
     align-items: center;
     font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
-    background: #23232e;
     height: 8vh;
   }
   
-  main {
-    background: url("bg.jpg") no-repeat center center;
-    background-size: cover;
-    height: 92vh;
-  }
   
   .nav-list {
     list-style: none;
@@ -52,6 +46,7 @@ nav {
   .mobile-menu {
     display: none;
     cursor: pointer;
+    float: right;
   }
   
   .mobile-menu div {
@@ -59,6 +54,7 @@ nav {
     height: 2px;
     background: #fff;
     margin: 8px;
+    
     transition: 0.3s;
   }
 nav{
@@ -97,36 +93,32 @@ body{
     margin-top: 10px;
 }
 .imagem{
+    background: url("imagens/apart01.jpg") no-repeat center center;
+    background-size: cover;
     align-content: space-between;
     justify-items: center;
     text-align: center;
     display: flex;
     margin-top: 20px;
 }
-.imagem img{
-    width: 50%;
-    height: auto;
-    margin-right: 20px;
-    align-items: center;
-    justify-items: center;
-    margin-left: 20px;
-}
+
 .text-biens{
     text-align: center;
 }
 .text-biens h2{
-    
-    margin-bottom: 200px;
-    font-style: italic;
-    font-weight: bold;
-    font-size: 30px;
+  text-align: center;
+  margin-left: 500px;
+  margin-bottom: 200px;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 30px;
 }
 .text-biens p{
-    width: 350px;
-   text-align: justify;
-   margin-left: 50%;
-   border: 2px solid black;
-   padding: 8px;
+  width: 350px;
+  text-align: justify;
+  border: 2px solid black;
+  padding: 8px;
+  color: #fff;
 }
 
 .services{
@@ -186,6 +178,10 @@ body{
     }
     .mobile-menu {
       display: block;
+      
+    }
+    .logo{
+      margin-right: 90px;
     }
   }
   
