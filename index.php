@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -69,25 +70,23 @@
                 </div>
             </div>
         </section>
-
+       
+        
         <section class="reserva">
-            <h2>Reserva</h2>
-            <form action="processa_reserva.php" method="post">
-                <label for="usuario">Usuário:</label>
-                <input type="text" name="usuario" required>
-        
-                <label for="senha">Senha:</label>
-                <input type="password" name="senha" required>
-        
-                <label for="nome_cliente">Nome do Cliente:</label>
+            <h1>Reserva</h1>
+            <form action="index.php" method="post">
+                <label for="nome_cliente">Nome do Cliente</label>
                 <input type="text" name="nome_cliente" required>
-        
-                <label for="data_reserva">Data da Reserva:</label>
+                <label for="contaco_cliente">Contacto</label>
+                <input type="tel" name="contato_cliente"  required>
+                <label for="email_cliente">Email</label>
+                <input type="email" name="email_cliente" required>
+                <label for="data_reserva">Data da Reserva</label>
                 <input type="date" name="data_reserva" required>
-        
-                <label for="hora_reserva">Hora da Reserva:</label>
+                <label for="data_saida">Data de Saida</label>
+                <input type="date" name="data_saida" required>
+                <label for="hora_reserva">Hora da Reserva</label>
                 <input type="time" name="hora_reserva" required>
-        
                 <input type="submit" value="Reservar">
             </form>
         </section>

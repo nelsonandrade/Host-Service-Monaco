@@ -260,21 +260,23 @@ body{
 }
 
 /* section reserva*/
-.reserva h2 {
+.reserva h1 {
   text-align: center;
-  padding-top: 20px;
+  padding-top: 50px;
   color: #0508a7;
-  font-size: 30px;
+  font-size: 50px;
 }
 
 form {
   width: 50%;
   display: block;
   text-align: center;
-  margin: 20px auto;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 600px;
   background-image: url(imagens/luar.jpg);
   background-repeat: no-repeat;
-  background-size:auto 600px;
+  background-size: cover;
   padding: 20px;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
