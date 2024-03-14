@@ -42,3 +42,21 @@ class MobileNavbar {
     ".nav-list li",
   );
   mobileNavbar.init();
+  //=========liste de villas
+
+   // Adiciona evento de clique aos cabeçalhos
+   var accordionHeaders = document.querySelectorAll('.accordion-header');
+   accordionHeaders.forEach(function(header) {
+       header.addEventListener('click', function() {
+           // Troca a classe "ativo" para abrir ou fechar o acordeão
+           this.parentElement.classList.toggle('ativo');
+           // Seleciona o conteúdo do acordeão
+           var accordionContent = this.nextElementSibling;
+           // Abre ou fecha o conteúdo do acordeão
+           if (accordionContent.style.display === 'block') {
+               accordionContent.style.display = 'none';
+           } else {
+               accordionContent.style.display = 'block';
+           }
+       });
+   });

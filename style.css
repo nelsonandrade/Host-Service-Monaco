@@ -334,11 +334,29 @@ input[type="submit"]:hover {
   background-color: #f44336;
   color: #fff;
 }
+/* liste de villas*/
+.city{
+  justify-items: center;
+  text-align:center;
+}
+.cidades{
+  font-size: 40px;
+}
+ .villa{
+  font-size: 20px;
+  background-color: #9e9be5;
+  color: #171717;
+  border-radius: 5px;
+}
+.villa:hover{
+  background-color: #0701c7;
+  color: #fff;
 
-
-
-
-
+}
+option:hover{
+  background-color: #0701c7;
+  color: #fff;
+}
 /*footer*/
 footer {
   background-color: #0a03de;
