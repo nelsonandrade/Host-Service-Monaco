@@ -22,11 +22,10 @@
           </div>
         <div class="menu">
             <nav class="nav-list">
-                <a href="cabecalho">Home</a>
+                <a href="#cabecalho">Home</a>
                 <a href="#">Biens à louer</a>
                 <a href="#">Contact</a>
-                <a href="#">Reserver</a>
-                <a href="#">Blanchisserie</a>
+            
             </nav>
         </div>
     </div>
@@ -45,7 +44,18 @@
                 <p>Faites comme beaucoup de nos clients, monétisez vos biens, confiez-nous vos biens, nous nous occupons de tout.
                     Nous mettons notre expérience à votre disposition pour veiller à votre bien.</p>
             </div>
-        </section>    
+        </section>  
+        
+        <div class="city">
+            <label class="cidades" id="cidades">Villas</label>
+            <select name="" id="" class="villa">
+                
+                <option value="">Beausoleil</option>
+                <option value="">Cap D'ail</option>
+                <option value="">Saint Roman</option>
+            </select>
+    
+           </div>
         <section class="villas" id="villas">
             <h1>Les villes où nous exerçons nos activités</h1>
             <div class="container">
@@ -58,67 +68,16 @@
                     <img src="imagens/Cap-d-ail.jpg" alt="">
                 </div>
                 <div class="card">
-                    <h1>Roquebrune</h1>
+                    <h1>Saint Roman</h1>
                     <img src="imagens/cap-martin.jpg" alt="">
                 </div>
-                <div class="card">
-                    <h1>Menton</h1>
-                    <img src="imagens/menton.jpg" alt="">
-                </div>
-                <div class="card">
-                <h1>Monaco</h1>
-                    <img src="imagens/monaco.jpg" alt="">
-                </div>
-            </div>
+              </div>
 
         </section>
-       <div class="city">
-        <label class="cidades" id="cidades">Villas</label>
-        <select name="" id="" class="villa">
-            
-            <option value="">Beausoleil</option>
-            <option value="">Cap D'ail</option>
-            <option value="">Menton</option>
-            <option value="">Monaco</option>
-            <option value="">Nice</option>
-            <option value="">Roquebrune</option>
-        </select>
-
-       </div>
+      
         
-        <section class="reserva">
-            <h1>Reserva</h1>
-            <form action="index.php" method="post">
-                <label for="nome_cliente">Nome do Cliente</label>
-                <input type="text" name="nome_cliente" required>
-                <label for="contaco_cliente">Contacto</label>
-                <input type="tel" name="contato_cliente"  required>
-                <label for="email_cliente">Email</label>
-                <input type="email" name="email_cliente" required>
-                <label for="data_reserva">Data da Reserva</label>
-                <input type="date" name="data_reserva" required>
-                <label for="data_saida">Data de Saida</label>
-                <input type="date" name="data_saida" required>
-                <label for="hora_reserva">Hora da Reserva</label>
-                <input type="time" name="hora_reserva" required>
-                <input type="submit" value="Reservar">
-            </form>
-        </section>
-    <section class="services">
-        <h1>Nos Services</h1>
-        <h2>Logements Entretenu</h2>
-        <div class="logement">  
-            <img src="imagens/limpeza1 .jpg" alt="limpeza1">
-            <img src="imagens/limpeza2.jpg" alt="limpeza2">
-        </div>
-    </section>
-    <section class="services">
-        <h2>Check-in et check-out</h2>
-        <div class="logement">  
-            <img src="imagens/check-in1.jpg" alt="limpeza1">
-            <img src="imagens/check-in.jpg" alt="limpeza2">
-        </div>
-    </section>
+      
+   
 </body>
 <footer>
     <div class="container-footer">
@@ -127,9 +86,7 @@
                 <ul>
                     <li><a href="#cabecalho">Home</a></li>
                     <li><a href="#">Biens à Louer</a></li>
-                    <li><a href="#">Contat</a></li>
-                    <li><a href="#">Reserver</a></li>
-                    <li><a href="#">Blanchisserie</a></li>
+                    <li><a href="#">Contact</a></li>
                 </ul>
             </div>
 
@@ -141,7 +98,10 @@
             </div>
         </div>
 
-        <p>&copy; 2024 Seu Site. Todos os direitos reservados.</p>
+        <div class="menu-politique">       
+            <p>&copy; 2024 Nelson Andrade </p>
+            <a href="politique.html"> Mentions légales</a>
+        </div> 
     </div>
 </footer>
 </html>
