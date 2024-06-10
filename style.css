@@ -100,7 +100,7 @@ body{
 .biens p{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     margin-top: 10px;
 }
 .imagem{
@@ -122,12 +122,12 @@ body{
   font-weight: bold;
   font-size: 40px;
   margin-bottom: 200px;
-  color: #acaebb;
-  text-shadow: 2px 3px black;
+  color: #0a0a0a;
+  text-shadow: 2px 3px rgb(205, 205, 205);
 }
 .text-biens p{
   background: #acaebbb4;
-  font-size: 25px;
+  font-size: 18px;
   text-align: justify;
   border: 2px solid black;
   padding: 8px;
@@ -278,63 +278,7 @@ body{
     
 }
 
-/* section reserva*/
-/*.reserva h1 {
-  text-align: center;
-  padding-top: 50px;
-  color: #0508a7;
-  font-size: 50px;
-}
 
-form {
-  width: 50%;
-  display: block;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-  margin: 20px 600px;
-  background-image: url(imagens/luar.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 20px;
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-label {
-  font-size: 20px;
-  font-family: 'Courier New', Courier, monospace;
-  font-weight:bolder ;
-  display: block;
-  text-align: center;
-  margin-bottom: 8px;
-  padding-top: 10px;
-  color: #e2b6b6;
-  text-shadow: 2px 3px black;
-}
-
-input {
-  width: 20%;
-  padding: 8px;
-  margin-bottom: 12px;
-  box-sizing: border-box;
-}
-
-input[type="submit"] {
-  background-color: #241f9e;
-  color: #fff;
-  cursor: pointer;
-  font-size: 20px;
-  border-radius: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-left: 40%;
-}
-
-input[type="submit"]:hover {
-  background-color: #45a049;
-}*/
 
 /* Adicionando um pouco de estilo para mensagens de erro/sucesso */
 .message {
@@ -395,7 +339,7 @@ footer {
 
 .footer-content {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 100px;
   display: flex;
   justify-content: space-between;
@@ -409,7 +353,7 @@ footer {
 }
 
 .menu li {
-  display: inline;
+  display: block;
   margin-right: 10px;
 }
 
@@ -427,7 +371,6 @@ footer {
 /* Estilos adicionais para tornar o footer mais atraente */
 .menu-politique p {
   margin: 0;
-  font-size: 20px;
   width: 450px;
 }
 
@@ -437,7 +380,6 @@ footer {
 .menu-politique a{
   color: white;
   text-decoration: none;
-  font-size: 20px;
   padding-left: 300px;
 }
 
@@ -543,11 +485,19 @@ footer {
 .container {
   max-width: 600px;
   margin: 20px auto;
-  padding: 20px;
+  padding: 30px;
   /*background-color: #fff;
   opacity: 0.8;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);*/
+}
+.container h1{
+  color: white;
+  font-size: 30px;
+}
+
+.container label{
+  color: white;
 }
 input[type="text"],
 input[type="email"],
