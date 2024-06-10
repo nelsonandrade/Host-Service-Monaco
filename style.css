@@ -439,14 +439,27 @@ footer {
   text-decoration: none;
   font-size: 20px;
   padding-left: 300px;
- 
-  
 }
 
 /* Tornar o texto do rodapé centralizado em telas menores */
 @media screen and (max-width: 600px) {
   html{
     max-width: fit-content;
+  }
+  .villas h1{
+    font-size: 30px;
+    color: white;
+    text-shadow:  black 0.1em 0.1em 0.2em;
+  }
+  .container h1{
+    font-size: 30px;
+    color: white;
+    text-shadow:  black 0.1em 0.1em 0.2em;
+  }
+  .container label{
+    font-size: 18px;
+    color: white;
+    text-shadow:  black 0.1em 0.1em 0.2em;
   }
   .imagem{
     margin-left: 10px;
@@ -464,6 +477,21 @@ footer {
   .card{
     width: 85%;
     height: 400px;
+  }
+  .menu-politique p {
+    padding-top: 30px;
+    font-size: 15px;
+    width: 450px;
+  }
+  .menu-politique{
+    display: flex;
+  }
+  .menu-politique a{
+    padding-top: 30px;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    padding-left: 30px;
   }
 }
 /*page politique conf*/
