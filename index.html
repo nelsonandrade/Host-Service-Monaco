@@ -80,6 +80,8 @@
                 <input type="text" id="name" name="name" required>
                 <label for="email">Email</label>
                 <input type="email" id="email" name="email" required>
+                <label for="telephone">Telephone</label>
+                <input type="text" id="telephone" name="telephone" required>
                 <label for="message">Message</label>
                 <textarea id="message" name="message" rows="5" required></textarea>
                 <input type="submit" value="Envoyer">
@@ -142,5 +144,27 @@
 
 </footer>
 </section>
+ <!--page cookies-->
+        
+ <div class="cookies-msg" id="cookies-msg">
+    <div class="cookies-img">
+        <img src="https://icons.iconarchive.com/icons/martin-berube/food/128/cookie-icon.png" width="48" height="48">
+        <h6>Cookies</h6>
+    </div>
+    <div class="cookies-txt">
+        <p>
+            Ce site internet est hébergé par Hostinger qui collecte des données personnelles lors de votre visite sur ce site internet telles que :
+            Informations sur votre navigateur, votre réseau et votre appareil
+            Pages Web que vous avez visitées avant d'arriver sur ce site
+            Pages Web qui apparaissent pendant que vous êtes sur ce site
+            Votre adresse IP.
+            Hostinger a besoin des données pour que ce site Web fonctionne et pour protéger et améliorer la plate-forme et les services. Hostinger analyse les données sous une forme non personnalisée.
+            </p>
+            <div class="cookies-btn">
+                <button onclick="aceito()">Accepter</button>
+            </div>
+    </div>
+</div>
+<script src="cookie.js"></script>
 </body>
 </html>
