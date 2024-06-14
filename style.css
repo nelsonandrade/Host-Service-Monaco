@@ -555,6 +555,9 @@ body {
   .imagem {
     margin-left: 10px;
   }
+  .cookies-msg{
+    display:none;
+  }
 }
 /*page politique conf*/
 .page-politique {
@@ -643,10 +646,6 @@ body {
   height: auto;
   margin: 20px auto;
   padding: 30px;
-  /*background-color: #fff;
-  opacity: 0.8;
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);*/
 }
 .formulario h1 {
   color: white;
